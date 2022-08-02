@@ -9,8 +9,8 @@ model - VARCHAR(50) - NOTNULL
 cc - SMALLINT - NOTNULL 
 cv - SMALLINT - NOTNULL 
 km - FLOAT(7, 3) - DEFAULT(0)
-gas_type - VARCHAR(30) - NOTNULL 
+fuel - VARCHAR(30) - NOTNULL 
 year - YEAR - NOTNULL 
 color - VARCHAR(30) - NULL  
-price - DECIMAL(7, 2) - NOTNULL
+price - DECIMAL(8, 2) - NOTNULL
 photo - TEXT - DEFAULT(https://this-website.com/images.jpg)
